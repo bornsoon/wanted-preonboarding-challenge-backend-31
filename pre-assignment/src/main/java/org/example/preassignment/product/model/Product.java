@@ -7,7 +7,7 @@ import lombok.ToString;
 import java.time.LocalDateTime;
 
 @Getter @Setter
-@ToString
+// @ToString
 public class Product {
     private Long id;
     private String name;

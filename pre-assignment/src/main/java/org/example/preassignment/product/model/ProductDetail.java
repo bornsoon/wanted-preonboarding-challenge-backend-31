@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.util.Map;
 
 @Getter @Setter
-@ToString
+// @ToString
 public class ProductDetail {
     private Long id;
     private Long productId;
