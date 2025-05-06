@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Getter @Setter
@@ -14,7 +15,7 @@ public class Seller {
     private String name;
     private String description;
     private String logoUrl;
-    private float rating;
+    private BigDecimal rating;
     private String contactEmail;
     private String contactPhone;
 
